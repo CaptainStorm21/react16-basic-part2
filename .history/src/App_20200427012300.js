@@ -5,7 +5,6 @@
 import React from 'react';
 import './App.css';
 import {name, age, person} from './data'
-
 import SelectiveExport from './SelectiveExport';
 
 // statless functional component
@@ -20,9 +19,8 @@ const App = () =>(
      <ol>Person's name: {person.name}</ol>
   </section>
     <section>
-      <SelectiveExport/>
+  <SelectiveExport></SelectiveExport>
   </section>
-  </>
 )
 
 export default App;

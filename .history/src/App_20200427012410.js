@@ -4,8 +4,7 @@
 
 import React from 'react';
 import './App.css';
-import {name, age, person} from './data'
-
+import {name, age, person, gameAuthor} from './data'
 import SelectiveExport from './SelectiveExport';
 
 // statless functional component

@@ -13,10 +13,3 @@ code {
     monospace;
 }
 
-section{
-  margin: 0 auto;
-  border: 1px solid red;
-  width: 20rem;
-  padding: 20px;
-  margin-top: 10px;
-}

@@ -1,0 +1,21 @@
+// named and default import / export
+// only one default export per module
+// thik of the module as file 
+
+import React from 'react';
+import './App.css';
+import {name, age, person} from './data'
+
+// statless functional component
+const App = () =>(
+  <section>
+      <p>lorem
+     <li></li> {name}
+      {age}
+      {person.age}{person.name}</p>
+  </section>
+)
+
+export default App;
+
+

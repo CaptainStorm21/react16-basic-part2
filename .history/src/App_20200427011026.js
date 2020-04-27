@@ -6,23 +6,16 @@ import React from 'react';
 import './App.css';
 import {name, age, person} from './data'
 
-import SelectiveExport from './SelectiveExport';
-
 // statless functional component
 const App = () =>(
-  <>
   <section>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-</p>
-     <ol> name: {name}</ol>
+      <p>lorem
+     <ol> {name}</ol>
      <ol>age: {age}</ol>
      <ol>Person's age: {person.age}</ol>
-     <ol>Person's name: {person.name}</ol>
+     <ol>Person's name:{person.name}</ol>
+      </p>
   </section>
-    <section>
-      <SelectiveExport/>
-  </section>
-  </>
 )
 
 export default App;

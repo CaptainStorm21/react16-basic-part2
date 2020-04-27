@@ -5,7 +5,6 @@
 import React from 'react';
 import './App.css';
 import {name, age, person} from './data'
-
 import SelectiveExport from './SelectiveExport';
 
 // statless functional component

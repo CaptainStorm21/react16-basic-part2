@@ -1,16 +1,9 @@
-// named and default import / export
-// only one default export per module
-// thik of the module as file 
-
 import React from 'react';
 import './App.css';
-import {name, age, person} from './data'
-
-import SelectiveExport from './SelectiveExport';
+import  *  from  './data';
 
 // statless functional component
-const App = () =>(
-  <>
+const SelectiveExport= () =>(
   <section>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 </p>
@@ -19,12 +12,6 @@ const App = () =>(
      <ol>Person's age: {person.age}</ol>
      <ol>Person's name: {person.name}</ol>
   </section>
-    <section>
-      <SelectiveExport/>
-  </section>
-  </>
 )
 
-export default App;
-
-
+export default SelectiveExport;
