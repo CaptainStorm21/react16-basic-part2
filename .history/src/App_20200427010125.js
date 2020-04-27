@@ -1,9 +1,6 @@
-// named and default import / export
-// only one default export per module
-// thik of the module as file 
-
 import React from 'react';
 import './App.css';
+
 
 // statless functional component
 const App = () =>(
@@ -15,3 +12,5 @@ const App = () =>(
 export default App;
 
 
+// named and default import / export
+only one default export per module
