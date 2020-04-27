@@ -4,7 +4,6 @@
 
 import React from 'react';
 import './App.css';
-import Header from './components/Header'
 import {name, age, person} from './data'
 
 import SelectiveExport from './SelectiveExport';
@@ -12,7 +11,6 @@ import SelectiveExport from './SelectiveExport';
 // statless functional component
 const App = () =>(
   <>
-  <Header/>
   <section>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 </p>
