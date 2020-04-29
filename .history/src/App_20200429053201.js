@@ -15,10 +15,6 @@ import {name, age, person} from './data'
 
 import SelectiveExport from './SelectiveExport';
 import ExtendComponent from './components/ExtendComponent'
-import StateComponent  from './components/State'
-
-
-
 
 // statless functional component
 const App = () =>(
