@@ -32,7 +32,8 @@ const App = () =>(
       <SelectiveExport/>
   </section>
   <section>
-    <ExtendComponent/>
+    <h3>Export Component</h3>
+    <ExtendComponent
   </section>
   </>
 )

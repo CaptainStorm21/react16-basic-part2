@@ -32,6 +32,7 @@ const App = () =>(
       <SelectiveExport/>
   </section>
   <section>
+    <h3>Export Component</h3>
     <ExtendComponent/>
   </section>
   </>

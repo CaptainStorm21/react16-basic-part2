@@ -32,7 +32,7 @@ const App = () =>(
       <SelectiveExport/>
   </section>
   <section>
-    <ExtendComponent/>
+    <h3
   </section>
   </>
 )

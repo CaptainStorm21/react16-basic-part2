@@ -14,7 +14,7 @@ import Header from './components/Header'
 import {name, age, person} from './data'
 
 import SelectiveExport from './SelectiveExport';
-import ExtendComponent from './components/ExtendComponent'
+import 
 
 // statless functional component
 const App = () =>(
@@ -30,9 +30,6 @@ const App = () =>(
   </section>
     <section>
       <SelectiveExport/>
-  </section>
-  <section>
-    <ExtendComponent/>
   </section>
   </>
 )

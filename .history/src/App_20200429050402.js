@@ -1,12 +1,7 @@
 // named and default import / export
 // only one default export per module
 // thik of the module as file 
-//React hooks
-// classes synthanctical sugar for constructor functions
-//subclass of compact
-//extends for component class
-//inheritcs functionality
-//component class is used to transfer from basic E6 class
+
 
 import React from 'react';
 import './App.css';
@@ -14,7 +9,6 @@ import Header from './components/Header'
 import {name, age, person} from './data'
 
 import SelectiveExport from './SelectiveExport';
-import ExtendComponent from './components/ExtendComponent'
 
 // statless functional component
 const App = () =>(
@@ -30,9 +24,6 @@ const App = () =>(
   </section>
     <section>
       <SelectiveExport/>
-  </section>
-  <section>
-    <ExtendComponent/>
   </section>
   </>
 )
