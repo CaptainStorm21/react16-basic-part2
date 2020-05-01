@@ -7,7 +7,7 @@ export default class Animal extends Component {
     const { name,  lives } = this.props.info;
 
     return (
-      <div className = "section-style section-style-red">
+      <div className = "section-style-re">
             <h5>Animal: {  name }</h5>
             <p>Residence: { lives }</p>
             <hr />

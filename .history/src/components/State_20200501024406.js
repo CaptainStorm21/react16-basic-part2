@@ -10,16 +10,16 @@ import Animallist from './import-data/Animallist';
 
 const StateComponent = () => (
   <div>
-      <div className = "section-style section-style-red">
+    <div>
       <h5>State Component  / auto iteration map()</h5>
       <Booklist />
     </div>
-    <div className = "section-style section-style-yellow">     
+    <div className = "section-style section-style-red">     
      <h5> Manual Iteration Component</h5>
 
       <Carlist />
     </div>
-    <div className = "section-style">     
+    <div className = "section-style2">     
      <h5> Data file is separated</h5>
 
       <Animallist/>
