@@ -6,7 +6,7 @@ import React from "react";
 import "../App.css";
 import Carlist from "./state-component/Booklist";
 import Booklist from "./manual-iteration/Carlist";
-import Animallist from './import-data/Animallist';
+import Animallist from './'
 
 const StateComponent = () => (
   <div>

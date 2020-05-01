@@ -6,7 +6,6 @@ import React from "react";
 import "../App.css";
 import Carlist from "./state-component/Booklist";
 import Booklist from "./manual-iteration/Carlist";
-import Animallist from './import-data/Animallist';
 
 const StateComponent = () => (
   <div>
@@ -18,11 +17,6 @@ const StateComponent = () => (
      <h5> Manual Iteration Component</h5>
 
       <Carlist />
-    </div>
-    <div className = "section-style2">     
-     <h5> Data file is separated</h5>
-
-      <Animallist/>
     </div>
   </div>
 );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Car from "./Car";
+import Animal from "./Animal";
 
-export default class Carlist extends Component {
+export default class Animallist extends Component {
   state = {
     cars: [
       {
