@@ -4,26 +4,17 @@ import "../../App.css";
 export default class Animal extends Component {
   constructor (props){
     super(props);
-    this.state = {
+    state = {
       count: 1
     }
-    // this.handleClick = this.handleClick.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
 
-  // handleClick() { 
-  //   console.log('you clicked!');
-  //   console.log(this.state.count)
-  // };
-  
-  // with the arrow functions they are not
-  // creating their own context.
-  // So that is the reason why we don't need to bind anything.
-
-  handleClick = () => {
-    console.log('you clicked me');
-    console.log(this.state.count);
-  }
+  handleClick() { 
+    console.log('you clicked!');
+    console.log(this.state.count)
+  };
 
   render() {
     // console.log(this.props);

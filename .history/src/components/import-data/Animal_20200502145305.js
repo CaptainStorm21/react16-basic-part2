@@ -15,10 +15,11 @@ export default class Animal extends Component {
   //   console.log('you clicked!');
   //   console.log(this.state.count)
   // };
-  
-  // with the arrow functions they are not
-  // creating their own context.
-  // So that is the reason why we don't need to bind anything.
+  with the arrow functions they are not
+
+  creating their own context.
+
+  So that is the reason why we don't need to bind anything.
 
   handleClick = () => {
     console.log('you clicked me');
