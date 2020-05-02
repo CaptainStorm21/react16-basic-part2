@@ -6,21 +6,22 @@ import React from "react";
 import "../App.css";
 import Carlist from "./state-component/Booklist";
 import Booklist from "./manual-iteration/Carlist";
-import Animallist from "./import-data/Animallist";
+import Animallist from './import-data/Animallist';
 
 const StateComponent = () => (
   <div>
-    <div className="section-style section-style-red">
-      <h5>State Component / auto iteration map()</h5>
+      <div className = "section-style section-style-red">
+      <h5>State Component  / auto iteration map()</h5>
       <Booklist />
     </div>
-    <div className="section-style section-style-yellow">
-      <h5> Manual Iteration Component</h5>
+    <div className = "section-style section-style-yellow">     
+     <h5> Manual Iteration Component</h5>
+
       <Carlist />
     </div>
-    <div className="section-style">
-      <h5> Data file is separated</h5>
-      <Animallist />
+    <div className = "section-style">     
+     <h5> Data file is separated</h5>
+      <Animallist/>
     </div>
   </div>
 );

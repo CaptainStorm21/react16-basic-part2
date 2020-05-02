@@ -16,6 +16,7 @@ const StateComponent = () => (
     </div>
     <div className="section-style section-style-yellow">
       <h5> Manual Iteration Component</h5>
+
       <Carlist />
     </div>
     <div className="section-style">

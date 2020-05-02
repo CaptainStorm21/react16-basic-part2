@@ -3,13 +3,6 @@ import Animal from "./Animal";
 import animalData from './animaData';
 
 export default class Animallist extends Component {
-
-  constructor (props) {
-    super(props);
-    this.state = {
-      Animals: animalData,
-    }
-  }
   // state = {
   //   Animals: animalData,
   // };

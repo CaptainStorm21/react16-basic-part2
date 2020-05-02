@@ -4,7 +4,7 @@ import "../../App.css";
 export default class Animal extends Component {
   render() {
     // console.log(this.props);
-    const { img, name,  lives } = this.props.info;
+    const { name,  lives } = this.props.info;
 
     return (
       <div className = "section-style section-style-red">

@@ -9,7 +9,7 @@ const animals = [
         id: 2,
         name: 'Jaguarr',
         lives: 'South America',
-        img: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/32D8/production/_110961031_gettyimages-1143093047.jpg",
+        img: "https://a-z-animals.com/media/animals/images/470x370/panther.jpg",
     },
     {
         id: 3,
