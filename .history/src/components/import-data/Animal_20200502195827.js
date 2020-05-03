@@ -34,7 +34,7 @@ export default class Animal extends Component {
       });
     }else {
       this.setState(prevState => ({
-          count: prevState.count - 1
+          count: prevState.counter - 1
       }));
     }
     // this.setState({  

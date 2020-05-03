@@ -28,13 +28,13 @@ export default class Animal extends Component {
   }
 
   lowerCount = () => {
-    if(this.state.count === 0){
+    if(this.state.counter === 0){
       this.setState({
-          counr:0
+          counter:0
       });
     }else {
       this.setState(prevState => ({
-          count: prevState.count - 1
+          counter: prevState.counter - 1
       }));
     }
     // this.setState({  

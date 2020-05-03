@@ -8,7 +8,7 @@ export default class Animal extends Component {
   constructor (props){
     super(props);
     this.state = {
-      count: 0,
+      count: 1,
       status: "seen"
     }
     // this.handleClick = this.handleClick.bind(this);
@@ -19,7 +19,7 @@ export default class Animal extends Component {
         //grabs the initial state . count and updates a virtual dom without altering constructor(props)
         this.setState({  
             count: this.state.count + 1,
-            status: "rescued"
+            status: "# of copies added"
         })
         //below is wrong
         // this.state = {
@@ -28,26 +28,11 @@ export default class Animal extends Component {
   }
 
   lowerCount = () => {
-    if(this.state.count === 0){
-      this.setState({
-          counr:0
-      });
-    }else {
-      this.setState(prevState => ({
-          count: prevState.count - 1
-      }));
-    }
-    // this.setState({  
-    //   count: this.state.count - 1,
-    //   status: "still remaining"
-    // })
+    
   }
 
   resetCount = () => {
-    this.setState({  
-      count: 0,
-      status: "Not seen/Not rescued"
-    })
+    
   }
   // handleClick() { 
   //   console.log('you clicked!');
@@ -73,7 +58,7 @@ export default class Animal extends Component {
            <img src = {img} width = "150" alt="wild animal" />
             <h5>Animal: {  name }</h5>
             <p>Residence: { lives }</p>
-            <h4> {this.state.count} {this.state.status}</h4>
+            <h4>count: {this.state.count}</h4>
 {/* event handling  */}
             <button type="button" onClick = {this.addCount}>add count</button>
             <button type="button" onClick = {this.resetCount}>reset count</button>
