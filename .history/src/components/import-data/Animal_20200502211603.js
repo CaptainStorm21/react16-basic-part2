@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../App.css";
-import Button from './Button';
 
 export default class Animal extends Component {
   //PROP drilling passing methods to children
@@ -22,9 +21,8 @@ export default class Animal extends Component {
            <img src = {img} width = "150" alt="wild animal" />
             <h5>Animal: {  name }</h5>
             <p>Residence: { lives }</p>
-            <div>
-              <Button/>
-            </div>
+            <h4> {this.state.count} {this.state.status}</h4>
+
       </div>
       <hr />
       </article>

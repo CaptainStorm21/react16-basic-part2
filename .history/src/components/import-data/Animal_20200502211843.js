@@ -22,6 +22,7 @@ export default class Animal extends Component {
            <img src = {img} width = "150" alt="wild animal" />
             <h5>Animal: {  name }</h5>
             <p>Residence: { lives }</p>
+            <h4> {this.state.count} {this.state.status}</h4>
             <div>
               <Button/>
             </div>
