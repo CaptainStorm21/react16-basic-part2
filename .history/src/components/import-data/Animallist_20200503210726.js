@@ -14,9 +14,7 @@ export default class Animallist extends Component {
   //   Animals: animalData,
   // };
 
-handleDelete  = () => {
-  alert (` i am from parent component `)
-}
+handleDelete 
 
   render() {
     //specific for Animal model
@@ -33,7 +31,7 @@ handleDelete  = () => {
       <div>
         <h3>This is our Animal list</h3>
         {this.state.Animals.map((item) => (
-          <Animal key={item.id} info={item} handleDelete = {this.handleDelete} />
+          <Animal key={item.id} info={item} />
         ))}
       </div>
     );

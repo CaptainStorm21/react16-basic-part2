@@ -33,7 +33,7 @@ handleDelete  = () => {
       <div>
         <h3>This is our Animal list</h3>
         {this.state.Animals.map((item) => (
-          <Animal key={item.id} info={item} handleDelete = {this.handleDelete} />
+          <Animal key={item.id} info={item} handleDelete =  />
         ))}
       </div>
     );
