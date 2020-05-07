@@ -25,7 +25,6 @@ export default class Animal extends Component {
           <p>Residence: {lives}</p>
           <div>
             {/* <Button handleDelete={handleDelete} /> */}
-                  <Button  />
           </div>
         </div>
         <hr />
